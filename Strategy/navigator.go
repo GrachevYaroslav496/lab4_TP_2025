@@ -1,13 +1,13 @@
 package Strategy
 
 type Navigator struct {
-	strategy Strategy
+	Strategy Strategy
 }
 
 func (n *Navigator) SetStrategy(s Strategy) {
-	n.strategy = s
+	n.Strategy = s
 }
 
 func (n *Navigator) Route(startPoint, endPoint int) {
-	n.strategy.Route(startPoint, endPoint)
+	n.Strategy.Route(startPoint, endPoint)
 }

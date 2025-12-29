@@ -10,6 +10,6 @@ func (pts *PublicTransportStrategy) Route(startPoint, endPoint int) {
 	totalRoad := endPoint - startPoint
 	timeInRoad := 40
 	totalTime := totalRoad * timeInRoad
-	fmt.Printf("Road A: [%d] to B: [%d]\nAvg speed: [%d] TotalRoad: [%d] Total time: [%d]\n\n", startPoint,
-		endPoint, avgSpeed, totalRoad, totalTime)
+	fmt.Printf("Road A: [%d] to B: [%d]\nAvg speed: [%d] TotalRoad: [%d] Total time: [%d] Time in road: [%d]\n", startPoint,
+		endPoint, avgSpeed, totalRoad, totalTime, timeInRoad)
 }
