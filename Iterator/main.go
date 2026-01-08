@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	// Демонстрация итератора для массива целых чисел
 	fmt.Println("=== Итератор для массива целых чисел ===")
 	numbers := []int{1, 2, 3, 4, 5}
 	intCollection := Iterator.NewIntArrayCollection(numbers)
